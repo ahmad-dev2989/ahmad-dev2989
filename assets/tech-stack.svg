@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="380" viewBox="0 0 870 380">
+    <style>
+        .section-title {
+            font-family: 'Arial', sans-serif;
+            font-size: 13px;
+            font-weight: 800;
+            fill: #38bdf8;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        .tech-icon {
+            width: 36px;
+            height: 36px;
+            transition: all 0.3s ease;
+        }
+        .glass-panel {
+            fill: rgba(255, 255, 255, 0.03);
+            stroke: rgba(255, 255, 255, 0.08);
+            stroke-width: 1;
+        }
+    </style>
+
+    <rect x="2" y="2" width="866" height="376" rx="15" fill="#09090b" stroke="#38bdf8" stroke-width="2" />
+
+    <!-- ROW 1: PROGRAMMING LANGUAGES -->
+    <text x="435" y="45" class="section-title" text-anchor="middle">Programming Languages</text>
+    <rect x="255" y="60" width="360" height="64" rx="16" class="glass-panel" />
+    
+    <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/3840px-Python-logo-notext.svg.png" x="267" y="74" class="tech-icon" />
+    <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1280px-ISO_C%2B%2B_Logo.svg.png" x="317" y="74" class="tech-icon" />
+    <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1920px-C_Programming_Language.svg.png" x="367" y="74" class="tech-icon" />
+    <image href="https://images.seeklogo.com/logo-png/44/2/netwide-assembler-nasm-logo-png_seeklogo-444841.png" x="417" y="74" class="tech-icon" />
+    <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/960px-HTML5_Badge.svg.png?_=20110131171049" x="467" y="74" class="tech-icon" />
+    <image href="https://www.svgrepo.com/show/452185/css-3.svg" x="517" y="74" class="tech-icon" />
+    <image href="https://www.svgrepo.com/show/303206/javascript-logo.svg" x="567" y="74" class="tech-icon" />
+
+    <!-- ROW 2: FRAMEWORKS & DATABASES -->
+    <text x="435" y="165" class="section-title" text-anchor="middle">Frameworks &amp; Databases</text>
+    <rect x="330" y="180" width="210" height="64" rx="16" class="glass-panel" />
+    
+    <!-- Using stable CDN links for the ones that previously failed -->
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" x="342" y="194" class="tech-icon" />
+    <image href="https://cdn.iconscout.com/icon/free/png-256/free-node-js-icon-svg-download-png-1174935.png?f=webp" x="392" y="194" class="tech-icon" />
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" x="442" y="194" class="tech-icon" />
+    <image href="https://images.icon-icons.com/1381/PNG/512/mysqlworkbench_93532.png" x="492" y="194" class="tech-icon" />
+
+    <!-- ROW 3: DEVELOPMENT TOOLS -->
+    <text x="435" y="285" class="section-title" text-anchor="middle">Development Tools</text>
+    <rect x="105" y="300" width="660" height="64" rx="16" class="glass-panel" />
+    
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" x="117" y="314" class="tech-icon" />
+    <image href="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-white-icon.png" x="167" y="314" class="tech-icon" />
+    <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/960px-Visual_Studio_Code_1.35_icon.svg.png" x="217" y="314" class="tech-icon" />
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg" x="267" y="314" class="tech-icon" />
+    <image href="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/cursor-ai-code-icon.png" x="317" y="314" class="tech-icon" />
+    
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" x="367" y="314" class="tech-icon" />
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg" x="417" y="314" class="tech-icon" />
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" x="467" y="314" class="tech-icon" />
+    
+    <image href="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/trae-color.png" x="517" y="314" class="tech-icon" />
+    <image href="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/antigravity-color.png" x="567" y="314" class="tech-icon" />
+    <image href="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/codex-color.png" x="617" y="314" class="tech-icon" />
+    <image href="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" x="667" y="314" class="tech-icon" />
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-plain.svg" x="717" y="314" class="tech-icon" />
+</svg>

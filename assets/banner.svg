@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="350" viewBox="0 0 550 350">
+    <!-- Outer Border -->
+    <rect x="2" y="2" width="546" height="346" rx="10" fill="transparent" stroke="#30363d" stroke-width="2" />
+
+    <defs>
+        <!-- Typing Animation Clip Paths -->
+        <clipPath id="type1">
+            <rect x="190" y="140" width="0" height="25">
+                <animate attributeName="width" values="0;0;250;250" keyTimes="0; 0.05; 0.2; 1" dur="10s" repeatCount="indefinite" />
+            </rect>
+        </clipPath>
+        <clipPath id="type2">
+            <rect x="190" y="165" width="0" height="25">
+                <animate attributeName="width" values="0;0;250;250" keyTimes="0; 0.2; 0.35; 1" dur="10s" repeatCount="indefinite" />
+            </rect>
+        </clipPath>
+        <clipPath id="type3">
+            <rect x="190" y="190" width="0" height="25">
+                <animate attributeName="width" values="0;0;250;250" keyTimes="0; 0.35; 0.5; 1" dur="10s" repeatCount="indefinite" />
+            </rect>
+        </clipPath>
+        <clipPath id="type4">
+            <rect x="190" y="215" width="0" height="25">
+                <animate attributeName="width" values="0;0;250;250" keyTimes="0; 0.5; 0.65; 1" dur="10s" repeatCount="indefinite" />
+            </rect>
+        </clipPath>
+        <clipPath id="type5">
+            <rect x="190" y="240" width="0" height="25">
+                <animate attributeName="width" values="0;0;250;250" keyTimes="0; 0.65; 0.8; 1" dur="10s" repeatCount="indefinite" />
+            </rect>
+        </clipPath>
+    </defs>
+
+    <!-- Header Text -->
+    <text x="275" y="70" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#38bdf8" text-anchor="middle">AHMAD FAROOQ</text>
+    <text x="275" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8b949e" text-anchor="middle">BS Artificial Intelligence Student</text>
+    <text x="275" y="120" font-family="Arial, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">FAST University Faisalabad</text>
+
+    <!-- Animated Skills List -->
+    <g font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+        <text x="200" y="160" fill="#38bdf8" clip-path="url(#type1)">&gt; <tspan fill="#e6edf3">Python Developer</tspan></text>
+        <text x="200" y="185" fill="#38bdf8" clip-path="url(#type2)">&gt; <tspan fill="#e6edf3">Full Stack Developer</tspan></text>
+        <text x="200" y="210" fill="#38bdf8" clip-path="url(#type3)">&gt; <tspan fill="#e6edf3">ML Engineer</tspan></text>
+        <text x="200" y="235" fill="#38bdf8" clip-path="url(#type4)">&gt; <tspan fill="#e6edf3">AI Student</tspan></text>
+        <text x="200" y="260" fill="#38bdf8" clip-path="url(#type5)">&gt; <tspan fill="#e6edf3">Automation Developer</tspan></text>
+    </g>
+
+    <!-- Clickable Bottom Links -->
+    <!-- Portfolio Link -->
+    <a href="https://ahmad-dev-312.pages.dev" target="_blank">
+        <g transform="translate(170, 305)" style="cursor: pointer;">
+            <svg x="0" y="-12" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <text x="24" y="0" font-family="Arial, sans-serif" font-size="14" fill="#58a6ff" font-weight="bold">Portfolio</text>
+        </g>
+    </a>
+
+    <!-- LinkedIn Link -->
+    <a href="https://www.linkedin.com/in/ahmad-farooq-211320349/" target="_blank">
+        <g transform="translate(292, 305)" style="cursor: pointer;">
+            <svg x="0" y="-12" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            <text x="24" y="0" font-family="Arial, sans-serif" font-size="14" fill="#58a6ff" font-weight="bold">LinkedIn</text>
+        </g>
+    </a>
+</svg>
