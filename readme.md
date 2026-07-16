@@ -13,3 +13,10 @@
 </p>
 
 </div>
+<br><br>
+
+<div align="center">
+  <h2 style="color: #38bdf8;">🐍 CONTRIBUTION GRAPH</h2>
+  <br>
+  <img src="https://raw.githubusercontent.com/ahmad-dev2989/ahmad-dev2989/output/github-snake.svg" width="100%" alt="Contribution Snake" />
+</div>
